@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div id="section1">
+            <h1>Find and replace</h1>
+            <input placeholder="Submit original Text" type="text" id="inputText">
+            <button onclick="SubmitText()">Submit</button>
+            <p id="ogText">original Text</p>
+        </div>
+       <div id="section2">
+            <input type="text" placeholder="find" id="original">
+            <input type="text" placeholder="replace" id="replacement">
+            
+            <button onclick="replaceWord()">replace</button>
+            <p id="after">Altered text</p>
+       </div>
+    
+    </main>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
